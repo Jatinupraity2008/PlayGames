@@ -31,3 +31,25 @@ a:visited{
 }
 
 
+.game{
+    position: relative;
+}
+
+.game p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.game:hover p{
+    opacity: 1;
+}
+
+.game img{
+    opacity: 1;
+}
+.game:hover img {
+    opacity: 0.33;
+}
